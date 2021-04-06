@@ -7,10 +7,12 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Arc(startAngle: .degrees(-90), endAngle: .degrees(90), clockwise: true)
+            .strokeBorder(Color.blue, lineWidth: 40)
+    
     }
 }
 
