@@ -7,16 +7,19 @@
 
 import SwiftUI
 
-
 struct ContentView: View {
+    @State private var colorCycle = 0.0
     var body: some View {
-        Arc(startAngle: .degrees(-90), endAngle: .degrees(90), clockwise: true)
-            .strokeBorder(Color.blue, lineWidth: 40)
-    
-    }
-}
+        VStack {
+            ColorCylingCircle(amount: self.colorCycle)
+                .frame(width: 300, height: 300)
+        }
+        .drawingGroup()
+      
+     }}
 
 struct ContentView_Previews: PreviewProvider {
+    
     static var previews: some View {
         ContentView()
     }

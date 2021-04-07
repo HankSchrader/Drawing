@@ -36,9 +36,7 @@ struct PathAndArcEx: View {
         Arc(startAngle: .degrees(0), endAngle: .degrees(180), clockwise: true)
             .stroke(Color.blue, lineWidth: 10)
             .frame(width: 300, height: 300)
-        Triangle()
-            .fill(Color.red)
-            .frame(width: 300, height: 300)
+  
     }
 }
 
