@@ -11,6 +11,8 @@
 		5303441B2621DDBE00487F82 /* ColorFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530344192621DDBE00487F82 /* ColorFill.swift */; };
 		5303441F2621E0B800487F82 /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303441E2621E0B800487F82 /* TrapezoidView.swift */; };
 		530344202621E0B800487F82 /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303441E2621E0B800487F82 /* TrapezoidView.swift */; };
+		530344242623276F00487F82 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530344232623276F00487F82 /* SpirographView.swift */; };
+		530344252623276F00487F82 /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530344232623276F00487F82 /* SpirographView.swift */; };
 		539FCB33261C83D50020F204 /* PathAndArcEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539FCB32261C83D50020F204 /* PathAndArcEx.swift */; };
 		539FCB34261C83D50020F204 /* PathAndArcEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539FCB32261C83D50020F204 /* PathAndArcEx.swift */; };
 		539FCB38261C8A340020F204 /* FlowerTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539FCB37261C8A340020F204 /* FlowerTutorial.swift */; };
@@ -29,6 +31,7 @@
 /* Begin PBXFileReference section */
 		530344192621DDBE00487F82 /* ColorFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorFill.swift; sourceTree = "<group>"; };
 		5303441E2621E0B800487F82 /* TrapezoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidView.swift; sourceTree = "<group>"; };
+		530344232623276F00487F82 /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		539FCB32261C83D50020F204 /* PathAndArcEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathAndArcEx.swift; sourceTree = "<group>"; };
 		539FCB37261C8A340020F204 /* FlowerTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerTutorial.swift; sourceTree = "<group>"; };
 		539FCB3C261D33210020F204 /* ColorCycleCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCycleCircle.swift; sourceTree = "<group>"; };
@@ -83,6 +86,7 @@
 				539FCB37261C8A340020F204 /* FlowerTutorial.swift */,
 				530344192621DDBE00487F82 /* ColorFill.swift */,
 				5303441E2621E0B800487F82 /* TrapezoidView.swift */,
+				530344232623276F00487F82 /* SpirographView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -211,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				539FCB33261C83D50020F204 /* PathAndArcEx.swift in Sources */,
+				530344242623276F00487F82 /* SpirographView.swift in Sources */,
 				5303441A2621DDBE00487F82 /* ColorFill.swift in Sources */,
 				539FCB38261C8A340020F204 /* FlowerTutorial.swift in Sources */,
 				5303441F2621E0B800487F82 /* TrapezoidView.swift in Sources */,
@@ -226,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				539FCB3E261D33210020F204 /* ColorCycleCircle.swift in Sources */,
+				530344252623276F00487F82 /* SpirographView.swift in Sources */,
 				530344202621E0B800487F82 /* TrapezoidView.swift in Sources */,
 				53FFD560261B343F00F40B75 /* ContentView.swift in Sources */,
 				5303441B2621DDBE00487F82 /* ColorFill.swift in Sources */,
